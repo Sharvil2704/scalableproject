@@ -75,7 +75,7 @@ To evaluate the performance of the modified Balance Algorithm and its variations
 
 **5.1 Average Case Scenario (Normally Distributed Budgets)**
 
-In this scenario, both keyword frequencies and advertiser budgets were generated using a normal distribution to simulate a typical real-world scenario. The results are presented in Table 1 and Figure 1:
+In this scenario, both keyword frequencies and advertiser budgets were generated using a normal distribution to simulate a typical real-world scenario. 
 
 | Algorithm                         | Total Revenue | Number of Advertisers with Spending |
 | --------------------------------- | ------------- | ----------------------------------- |
@@ -83,7 +83,7 @@ In this scenario, both keyword frequencies and advertiser budgets were generated
 | Modified Balance (Sliding Window) | 89,964        | 25                                  |
 **Table 1:** Performance comparison in average case scenario.
 
-_Figure 1:_ Total revenue comparison for average case scenario.
+
 
 **Key Observations:**
 
@@ -100,9 +100,9 @@ In this scenario, advertiser budgets were allocated randomly to test the algorit
 | Basic Balance                     | 72,616        | 8                                   |
 | Modified Balance (Sliding Window) | 89,964        | 25                                  |
 
-**Table 2:** Performance comparison in random budget allocation scenario.
 
-_Figure 2:_ Total revenue comparison for random budget allocation scenario.
+
+
 
 **Key Observations:**
 
@@ -118,9 +118,7 @@ In this scenario, the budget allocation was skewed towards a few advertisers wit
 | Basic Balance                     | 71,582        | 25                                  |
 | Modified Balance (Sliding Window) | 89,964        | 25                                  |
 
-**Table 3:** Performance comparison in outlier-heavy budget allocation scenario.
 
-_Figure 3:_ Total revenue comparison for outlier-heavy budget allocation scenario.
 
 **Key Observations:**
 
