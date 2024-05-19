@@ -81,7 +81,7 @@ In this scenario, both keyword frequencies and advertiser budgets were generated
 | --------------------------------- | ------------- | ----------------------------------- |
 | Basic Balance                     | 72,616        | 8                                   |
 | Modified Balance (Sliding Window) | 89,964        | 25                                  |
-**Table 1:** Performance comparison in average case scenario.
+
 
 
 
