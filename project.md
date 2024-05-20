@@ -1,11 +1,14 @@
-- **Author:** [Sharvil Bhatt 21dcs009] 
+# Scalable Online Advertising Budget Management with Fair Resource Allocation and Adaptivity
+**1. Title and authors**
+
+- **Author:** [Sharvil Bhatt 21dcs009,Abhay Gupta 21ucs002,Kamal Manchanda 21dcs004,Moin Khan 21ucs245] 
 - **Date:** [19/05/2024]
 
-**Abstract:**
+**2. Abstract:**
 
 This project investigates the modification of the basic Balance Algorithm for online advertising budget allocation. The modified algorithm introduces a sliding window approach and a budget percentage check to enhance fairness and revenue generation. Through extensive testing on various budget allocation scenarios (including normal, random, and outlier-heavy distributions), we demonstrate that the modified algorithm consistently outperforms the basic Balance Algorithm in terms of total revenue and fairness. The results highlight the potential of the modified algorithm to improve the efficiency and equity of online advertising platforms.
 
-**Introduction:**
+**3. Introduction:**
 
 Online advertising is a rapidly growing industry, with advertisers competing to reach their target audiences effectively. Effective budget allocation is crucial for advertisers to maximize their return on investment (ROI) and maintain a competitive edge. The Balance Algorithm is a well-established algorithm for online decision-making problems, including ad allocation. It prioritizes advertisers with lower remaining budgets, promoting fairness but potentially sacrificing revenue optimization.
 
