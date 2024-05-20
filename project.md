@@ -98,12 +98,12 @@ In this scenario, both keyword frequencies and advertiser budgets were generated
 
 **5.2 Random Budget Allocation (Extreme Case)**
 
-In this scenario, advertiser budgets were allocated randomly to test the algorithms' robustness to extreme situations. The results are presented in Table 2 and Figure 2:
+In this scenario, advertiser budgets were allocated randomly to test the algorithms' robustness to extreme situations:
 
-| Algorithm                         | Total Revenue | Number of Advertisers with Spending |
-| --------------------------------- | ------------- | ----------------------------------- |
-| Basic Balance                     |    83878    |    24(but mostly with only spending of 1)                                |
-| Modified Balance (Sliding Window) |  90,084      | 13                                  |
+| Algorithm                         | Total Revenue | Number of Advertisers with Spending       |
+| --------------------------------- | ------------- | -----------------------------------       |
+| Basic Balance                     |    83878      |    24(but mostly with only spending of 1) |
+| Modified Balance (Sliding Window) |  90,084       | 13                                        |
 
 
 
@@ -116,12 +116,12 @@ In this scenario, advertiser budgets were allocated randomly to test the algorit
 
 **5.3 Outlier-Heavy Budget Allocation (Extreme Case)**
 
-In this scenario, the budget allocation was skewed towards a few advertisers with very high budgets and many with very low budgets. This tested the algorithms' ability to cope with extreme outliers. The results are presented in Table 3 and Figure 3:
+In this scenario, the budget allocation was skewed towards a few advertisers with very high budgets and many with very low budgets. This tested the algorithms' ability to cope with extreme outliers.:
 
-| Algorithm                         | Total Revenue | Number of Advertisers with Spending |
-| --------------------------------- | ------------- | ----------------------------------- |
-| Basic Balance                     | 55,447         | 23                                  |
-| Modified Balance (Sliding Window) |  64637       | 21                                  |
+| Algorithm                         | Total Revenue | Number of Advertisers with Spending  |
+| --------------------------------- | ------------- | -----------------------------------  |
+| Basic Balance                     | 55,447        | 23                                   |
+| Modified Balance (Sliding Window) |  64637        | 21                                   |
 
 
 
