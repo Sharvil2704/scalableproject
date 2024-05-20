@@ -685,3 +685,12 @@ The code in `analyzer_basic.py` is almost identical to the `analyzer_mod.py` cod
 - The script analyzes the "transactions_basic.txt" file, which should contain the output of a basic balance algorithm run.
 - The calculations for total revenue and spending per advertiser are identical to those in `analyzer_mod.py`.
 - It saves the results in a separate file, "results_basic.txt," to distinguish them from the results of the modified balance algorithm.
+
+  ### Guidelines for running the code
+  - Install the dependencies like numpy,sqlite3,collections library in python etc
+  - Firstly run the Query.py to generate the query stream
+  - AFterwards run any of the advertisor generator variants to your liking to observe the behaviour
+  - afterwards run the normal balance algorithm code and any of our balance algorithm code containing the word mod in the name of the file
+  - this will get you tranasactions for both of the variants, only one of the varaiants of modified algo can be run at a time and cannot be re run with the same set of advertisers.db file as it would have written into it and made changes to handle the budget
+  - aftwerwards run the analyzer both the codes and you will get results.txt and results_basic.txt
+  - if you wish to run the code with different specifications kindly delete the advertisers.ddb file and re run all the steps again
