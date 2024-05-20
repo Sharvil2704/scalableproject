@@ -129,6 +129,15 @@ In this scenario, the budget allocation was skewed towards a few advertisers wit
 - Both modified algorithms performed similarly, suggesting that the sliding window might not provide a significant advantage when budgets are heavily skewed.
 - The modified algorithms demonstrated a more balanced distribution of spending even in this extreme case, highlighting their ability to promote fairness.
 
+  **6. Discussion**
+
+* The experimental results demonstrate the clear superiority of the modified Balance Algorithm over the basic algorithm across various budget allocation scenarios. The modified algorithm consistently generates higher total revenue and achieves a more equitable distribution of spending across advertisers. This is especially evident in the average case scenario, where the algorithm's ability to adapt to changing keyword frequencies through the sliding window mechanism plays a significant role.
+
+* Even in extreme cases, such as random budget allocation or outlier-heavy distributions, the modified algorithm remains robust and outperforms the basic algorithm. This robustness is attributed to several factors:
+
+* Keyword-Frequency Awareness: The modified algorithm's initial budget allocation is guided by keyword frequencies, ensuring that advertisers with high-demand keywords receive adequate resources. This allows it to capitalize on revenue opportunities even when budgets are randomly assigned.
+Budget Percentage Check: The 50% budget spending rule prevents premature depletion of budgets, allowing advertisers to remain competitive throughout the query stream. This is particularly beneficial in scenarios with rare or late-appearing high-value keywords.
+
 **7. Conclusion**
 
 This project successfully addressed the limitations of the basic Balance Algorithm for online advertising budget allocation and introduced several modifications to enhance its performance, fairness, and adaptability. The modified algorithm, both with and without the sliding window mechanism, consistently outperformed the basic algorithm in terms of revenue generation and fairness across various budget allocation scenarios. This highlights the effectiveness of the introduced modifications:
