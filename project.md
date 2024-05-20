@@ -171,7 +171,7 @@ This project represents a significant step towards developing more effective and
 
 **9. Appendix**
 
-* This portion mainly explains the code and different parts of it this mainly contains the explanations the code can be found on the github linked below:
+* This portion mainly explains the code and different parts of it this mainly contains the explanations the code can be found on the github linked in the title:
 
 
      1. Query.py:
