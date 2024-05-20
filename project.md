@@ -75,6 +75,7 @@ To evaluate the performance of the modified Balance Algorithm and its variations
 - **Total Revenue:** The sum of all successful ad allocations.
 - **Distribution of Spending:** The distribution of budget spent across different advertisers.
 - **Fairness:** A qualitative assessment of how equitably the algorithms distribute opportunities among advertisers.
+- **Sample Size** A decent sample size of a query stream of 100,000 characters was taken as ti would give us a greater idea about the performance of algorithm in such extensive scenenarios and we have left the modified balance algorithm without the sliding window for the reveiwer to test and assess as it would also help them to understand the potential implications of that however we have already tested it and it provided better results and in some cases better than the modified balance algorithm with the sliding window. 
 
 **5.1 Average Case Scenario (Normally Distributed Budgets)**
 
