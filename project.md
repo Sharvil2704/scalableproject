@@ -79,8 +79,8 @@ In this scenario, both keyword frequencies and advertiser budgets were generated
 
 | Algorithm                         | Total Revenue | Number of Advertisers with Spending |
 | --------------------------------- | ------------- | ----------------------------------- |
-| Basic Balance                     | 72,616        | 8                                   |
-| Modified Balance (Sliding Window) | 89,964        | 25                                  |
+| Basic Balance                     | 88,957        | 23                                  |
+| Modified Balance (Sliding Window) | 100,000        | 25=4                                  |
 
 
 
@@ -97,8 +97,8 @@ In this scenario, advertiser budgets were allocated randomly to test the algorit
 
 | Algorithm                         | Total Revenue | Number of Advertisers with Spending |
 | --------------------------------- | ------------- | ----------------------------------- |
-| Basic Balance                     | 72,616        | 8                                   |
-| Modified Balance (Sliding Window) | 89,964        | 25                                  |
+| Basic Balance                     |    83878    |    24(but mostly with only spending of 1)                                |
+| Modified Balance (Sliding Window) |  90,084      | 13                                  |
 
 
 
@@ -115,8 +115,8 @@ In this scenario, the budget allocation was skewed towards a few advertisers wit
 
 | Algorithm                         | Total Revenue | Number of Advertisers with Spending |
 | --------------------------------- | ------------- | ----------------------------------- |
-| Basic Balance                     | 71,582        | 25                                  |
-| Modified Balance (Sliding Window) | 89,964        | 25                                  |
+| Basic Balance                     | 55,447         | 23                                  |
+| Modified Balance (Sliding Window) |  64637       | 21                                  |
 
 
 
