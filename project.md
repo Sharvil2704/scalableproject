@@ -80,7 +80,7 @@ In this scenario, both keyword frequencies and advertiser budgets were generated
 | Algorithm                         | Total Revenue | Number of Advertisers with Spending |
 | --------------------------------- | ------------- | ----------------------------------- |
 | Basic Balance                     | 88,957        | 23                                  |
-| Modified Balance (Sliding Window) | 100,000        | 25=4                                  |
+| Modified Balance (Sliding Window) | 100,000        | 25                                  |
 
 
 
