@@ -1,9 +1,5 @@
 # Scalable Online Advertising Budget Management with Fair Resource Allocation and Adaptivity
-**1. Title and authors**
 
-- **Author:** [Sharvil Bhatt 21dcs009,Abhay Gupta 21ucs002,Kamal Manchanda 21dcs004,Moin Khan 21ucs245] 
-- **Date:** [19/05/2024]
-- **Github URL** [https://github.com/Sharvil2704/scalableproject] (this is a private github account of sharvil bhatt , you can also view the project by opening project.md file which contains the same project file)
 
 **2. Abstract:**
 
