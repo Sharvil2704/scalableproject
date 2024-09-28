@@ -13,7 +13,7 @@ def balance_algorithm(query_stream):
         eligible_advertisers = [adv for adv in advertisers if char in adv[1].split(',') and adv[2] > 0]
 
         if eligible_advertisers:
-            winner = min(eligible_advertisers, key=lambda x: x[2])  # Prioritize by lowest remaining budget
+            winner = max(eligible_advertisers, key=lambda x: x[2])  # Prioritize by highest remaining budget
             transactions.append((serial_no, winner[0]))
             serial_no += 1
 
